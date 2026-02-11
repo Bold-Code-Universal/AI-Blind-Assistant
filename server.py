@@ -10,14 +10,14 @@ from gtts import gTTS
 # ================================
 # FFmpeg Path (USER MUST PASTE PATH)
 # ================================
-FFMPEG_PATH = r"C:\Users\Boboi\Downloads\ffmpeg-7.1.1-full_build\bin\ffmpeg.exe"
+FFMPEG_PATH = r"Your FFmpeg Path" # like this->> C:\Users\Boboi\Downloads\ffmpeg-7.1.1-full_build\bin\ffmpeg.exe
 
 app = Flask(__name__)
 
 # ================================
 # OpenRouter Vision Model 
 # ================================
-API_KEY = "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"
+API_KEY = "Your Openrouter API Key"
 MODEL = "nvidia/nemotron-nano-12b-v2-vl:free"
 URL = "https://openrouter.ai/api/v1/chat/completions"
 
@@ -146,3 +146,4 @@ def home():
 # START SERVER
 # ================================
 app.run(host="0.0.0.0", port=5000)
+
