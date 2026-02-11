@@ -4,11 +4,11 @@
 #include "base64.h"
 
 // ==== WIFI ====
-const char* ssid = "Connected";
-const char* password = "mnbvcxz1234567890";
+const char* ssid = "ssid";
+const char* password = "password";
 
 // ==== SERVER URL (UPDATED) ====
-String serverURL = "http://10.230.173.49:5000/upload";
+String serverURL = "http://server ip and port/upload";
 
 // =======================
 // BUTTON & FLASH
